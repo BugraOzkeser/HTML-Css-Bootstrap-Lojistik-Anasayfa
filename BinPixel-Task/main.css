@@ -1,0 +1,66 @@
+*{box-sizing:border-box;}
+
+.main-header {
+    width: 100%;
+    background: url(images/slide-1.jpg) no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+body{box-sizing:content-box;}
+
+header {
+    background-color: white;
+}
+
+main {
+    padding: 30px 0;
+    background-color: #dcdde2;
+}
+
+footer {
+    padding: 30px 0;
+    background-color: #1f232c;
+    color: gray ;
+}
+
+.services {
+    margin: 60px 0;
+    text-align: center;
+}
+
+.listheadimg li {
+    list-style-type: none;
+}
+
+.listheadimg li::before{
+    content:url(images/li.png);
+    margin-right: 10px;
+}
+
+.btn-warning {
+    background-color: orangered;
+    color: white;
+    border: 5px solid orangered;
+    border-radius: 3px;
+}
+.btn-warning:hover {
+    background-color: rgb(178, 49, 2);
+}
+.promo{
+    background-color: #30373f;
+    color: white;
+}
+.kurumsal{background-color: orangered;}
+.kutu{background-color: #30373f;
+color: white;
+height:200px;
+margin-left:1px;}
+.kutu:hover{background-color: orangered;}
+.woman{
+
+    width: 100%;
+
+    background: url(images/teklif-al.jpg) no-repeat center center;
+    background-size: cover;
+    color: white;
+}
